@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimImmo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_mensualites">Mensualites</string>
+    <string name="title_activity_display_mensualites">DisplayMensualites</string>
+    <string name="title_activity_mensualites_by_range">MensualitesByRange</string>
+    <string name="title_activity_capital">Capital</string>
+    <string name="title_activity_amortissements">Amortissements</string>
+    <string name="label_duree">Durée</string>
+    <string name="label_duree_de">Durée de</string>
+    <string name="label_taux">Taux</string>
+    <string name="label_mens">Mensualités</string>
+    <string name="label_annee">années</string>
+    <string name="label_mois">mois</string>
+    <string name="label_mont">Montant</string>
+    <string name="label_cap">Capital</string>
+    <string name="label_ass">Assurance</string>
+    <string name="label_mens_ass">Mensualités Assurance Comprise</string>
+    <string name="label_par_moi">/mois</string>
+    <string name="label_per">%</string>
+    <string name="label_ok">OK</string>
+    <string name="label_a">à</string>
+    <string name="label_p1">Prêt 1</string>
+    <string name="label_p2">Prêt 2</string>
+    <string name="label_p3">Prêt 3</string>
+    <string name="label_p4">Prêt 4</string>
+    <string name="label_lignes">Lignes de Prets</string>
+
+    <color name="black">#000000</color>
+    <color name="cpo">#33B5E5</color>
+    <color name="white">#FFFFFF</color>
+
+    <string name="title_activity_lignes_de__pret">Lignes_de_Pret</string>
+
+</resources>

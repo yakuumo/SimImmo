@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xdk.simimmo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/xxh_money"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.xdk.simimmo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xdk.simimmo.Mensualites"
+            android:label="@string/title_activity_mensualites"
+            android:parentActivityName="com.xdk.simimmo.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.xdk.simimmo.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.xdk.simimmo.DisplayMensualites"
+            android:label="@string/title_activity_display_mensualites"
+            android:parentActivityName="com.xdk.simimmo.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.xdk.simimmo.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.xdk.simimmo.MensualitesByRange"
+            android:label="@string/title_activity_mensualites_by_range" >
+        </activity>
+        <activity
+            android:name="com.xdk.simimmo.Capital"
+            android:label="@string/title_activity_capital"
+            android:parentActivityName="com.xdk.simimmo.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.xdk.simimmo.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.xdk.simimmo.Amortissements"
+            android:label="@string/title_activity_amortissements"
+            android:parentActivityName="com.xdk.simimmo.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.xdk.simimmo.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.xdk.simimmo.Lignes_de_Pret"
+            android:label="@string/title_activity_lignes_de__pret"
+            android:parentActivityName="com.xdk.simimmo.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.xdk.simimmo.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
